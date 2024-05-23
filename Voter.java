@@ -1,33 +1,3 @@
-/*import java.util.Scanner;
-public class SingleDigit
-{
-public static void main(String args[])
-{
-int rem,s=0,sum=0,rev=0,r=0;
-Scanner sr=new Scanner(System.in);
-int num=sr.nextInt();
-if(num>=10)
-{
-while(num!=0)
-{
-	rem=num%10;
-	rev=rev*10+rem;
-	num=num/10;
-	sum=sum+rem;
-}
-System.out.println(sum);
-if(sum>9)
-{
-	r=sum%10;
-	s=s*10+r;
-	sum /=10;
-	//s=s+r;
-	
-}
-//System.out.println(sum);
-System.out.println(s+sum);
-}}
-}*/
 /*
 import java.util.Scanner;
 class SingleDigit
